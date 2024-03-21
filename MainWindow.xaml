@@ -1,0 +1,31 @@
+﻿<Window x:Class="Fear_and_Greed_Index_Doom_Edition.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Fear_and_Greed_Index_Doom_Edition"
+        mc:Ignorable="d"
+        Title="Fear and Greed Index: Doom Edition" Height="350" Width="250" MinHeight="350" MinWidth="250" MaxHeight="350" MaxWidth="250" Background="Transparent">
+    <Grid>
+        <Image Height="125" Width="100" VerticalAlignment="Top" HorizontalAlignment="Center" Name="doomguyImage" Margin="0,30,0,0">
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="40" Color="#ffffff" ShadowDepth="0"></DropShadowEffect>
+            </Image.Effect>
+            <Image.Source>
+                <BitmapImage DecodePixelWidth="100"
+                    UriSource="C:\Users\david\Desktop\doomguy\neutral.png">
+                </BitmapImage>
+            </Image.Source>
+        </Image>
+        <TextBlock Text="0" HorizontalAlignment="Center" Margin="0, 185, 0,0" Foreground="#ffffff" FontSize="40" Name="fearAndGreedIndexValue">
+            <TextBlock.Effect>
+                <DropShadowEffect BlurRadius="40" Color="#ffffff" ShadowDepth="0"></DropShadowEffect>
+            </TextBlock.Effect>
+        </TextBlock>
+        <TextBlock Text="" HorizontalAlignment="Center" Margin="0, 225, 0,0" FontSize="30" Foreground="#ffffff"  Name="fearAndGreedIndexState">
+            <TextBlock.Effect>
+                <DropShadowEffect BlurRadius="40" Color="#ffffff" ShadowDepth="0"></DropShadowEffect>
+            </TextBlock.Effect>
+        </TextBlock>
+    </Grid>
+</Window>
