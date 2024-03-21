@@ -1,7 +1,4 @@
-﻿using System.Configuration;
-using System.Data;
-using System.Windows;
-
+﻿using System.Windows;
 namespace Fear_and_Greed_Index_Doom_Edition
 {
     /// <summary>
@@ -9,6 +6,7 @@ namespace Fear_and_Greed_Index_Doom_Edition
     /// </summary>
     public partial class App : Application
     {
+       
     }
 
 }
