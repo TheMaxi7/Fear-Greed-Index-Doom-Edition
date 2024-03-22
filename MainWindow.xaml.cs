@@ -30,6 +30,7 @@ namespace Fear_and_Greed_Index_Doom_Edition
             fearAndGreedIndexValue.Text = indexValue.ToString();
             fearAndGreedIndexState.Text = indexState.ToString();
 
+            
             if (indexState.ToString() == "Extreme Fear")
             {
                 doomguyImage.Source = new BitmapImage(new Uri("C:\\Users\\david\\Desktop\\github\\Fear-and-Greed-Index-Doom-Edition\\doomguy\\extreme_fear.png"));
