@@ -21,7 +21,10 @@ git clone https://github.com/TheMaxi7/Fear-and-Greed-Index-Doom-Edition.git
 I use this app in the following way:
 - I added the executable file to my startup folder so it launches as soon as I log in my pc;
 - It starts at the location expressed in the `MainWindow.xaml` file at lines 13 and 14. You should change those width and height values according to your monitor dimensions. I leave that location of the monitor empty so i can clearly see the window content.
-  
-## License
 
+
+### Credits
+This small application fetches its data from [alternative.me](https://alternative.me/crypto/fear-and-greed-index/) using their free API service.
+
+## License
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/TheMaxi7/Fear-and-Greed-Index-Doom-Edition/blob/main/LICENSE) file for details.
